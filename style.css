@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto+Slab:wght@900&family=Rubik:wght@900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@900&family=Rubik:wght@900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        /* background-color: #3AAFA9; */
+    }
+
+    main {
+        height: 100vh;
+        width: 110vw;
+        /* background-color: #3AAFA9;
+         */
+        background-color: #222629;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        height: 60%;
+        width: 40%;
+        /* background-color: #2B7A78; */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .advice {
+        /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+        /* font-family: 'Rubik', sans-serif; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+        font-weight: 800;
+        color: #61892F;
+        /* background-color: green; */
+        /* color: rgb(9, 133, 79); */
+        /* color: */
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+        font-display: inherit;
+        font-style: normal;
+        font-variant: small-caps;
+        font-stretch: extra-condensed;
+        margin-bottom: 20px;
+
+        
+    }
+    
+
+    .display {
+        width: 100%;
+        height: 60%;
+        /* background-color: yellow; */
+        background-color: #222629;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: x-large;
+
+        box-shadow: 10px 10px #61892f;
+    }
+
+    body,
+    .button,
+    .tick {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .button {
+        margin-left: 38%;
+        width: 100px;
+        height: 40px;
+        /* background: rgb(19, 41, 63); */
+        /* color: aquamarine; */
+        background-color: #86C232;
+        border-radius: 6px;
+        transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+
+        margin-top: -50px;
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        
+    }
+
+    .button svg {
+        transform: rotate(180deg);
+        transition: all .5s;
+    }
+
+    .button__circle {
+        /*width: 120px;
+        height: 120px;
+        *//*background: mediumseagreen;
+        *//*border-radius: 50%;
+        */transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+}
+
+    .button:hover {
+        cursor: pointer;
+    }
+
+    .tick {
+        /* color: white; */
+
+        transition: all .9s;
+    }
+
+    .button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
